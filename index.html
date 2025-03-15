@@ -1,0 +1,77 @@
+<!-- create a random name ger by combining list by using if and esle-->
+
+<!-- list 1 -->
+<!-- Crazy -->
+<!-- Amazing  -->
+<!-- Fire -->
+
+<!-- list 2 -->
+<!-- Ahmed -->
+<!-- ali -->
+<!-- Khan -->
+
+<!-- list 3 -->
+<!-- bros -->
+<!-- Limited -->
+<!-- Hub -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // This are Variable
+        let rand = Math.random();
+        let list1, list2, list3;
+
+        // This is condition or list 1
+        if (rand < 0.33) {
+            list1 = "Crazy"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            list1 = "Amazing"
+        }
+        else (
+            list1 = "Fire"
+        );
+
+        // This is condition or list 2
+        rand = Math.random();
+        if (rand < 0.33) {
+            list2 = "Ahmed"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            list2 = "ali"
+        }
+        else (
+            list2 = "Khan"
+        );
+
+        // This is condition or list 3
+        rand = Math.random();
+        if (rand < 0.33) {
+            list3 = "bros"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            list3 = "Limited"
+        }
+        else (
+            list3 = "Hub"
+        );
+
+        // We are printing in console
+        console.log(`${list1} ${list2} ${list3}`)
+
+    </script>
+
+</body>
+
+</html>
